@@ -16,7 +16,7 @@ include($path); //language text
 
     <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="<?= __DIR__ . '/../index.php'?>" >
+        <a class="navbar-brand" href="../index.php" >
           
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
             class="bi bi-people-fill" viewBox="0 0 16 16" style="margin-right:10px;">

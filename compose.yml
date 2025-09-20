@@ -1,4 +1,4 @@
-services:
+
 services:
   php:
     image: php:8.3-apache-bullseye
