@@ -3,14 +3,14 @@ $users = [ [
          "id"=> 0,
          "name"=> "Toni Fernandez",
          "username" => "admin",
-         "password" => "P@ssw0rd",
+         "password" => "password",
          "mail" => "toni.fernandez@cirvianum.cat",
          "rol" => "admin"
      ],[
          "id"=> 1,
          "name"=> "Raquel Boronat",
          "username" => "raquel",
-         "password" => "P@ssw0rd",
+         "password" => "password",
          "mail" => "raquel.boronat@cirvianum.cat",
          "rol" => "user" ]
 ];

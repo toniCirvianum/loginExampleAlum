@@ -1,8 +1,18 @@
 <?php
 
 //comprova usuari i password
-function checkUser() {
-
+function checkUser($username, $password, $users) {
+    foreach ($users as $user) {
+        if ($username == $user['username']) {
+            if ($password == $user['password']) {
+                return $user;
+            }
+            else {
+                return 3;
+            }
+        }
+    }
+    return 4;
 }
 
 //comprovar usuari satisfa Regex

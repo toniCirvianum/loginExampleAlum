@@ -28,8 +28,8 @@ include('../language/ca.php'); //language text
                     <p class="from-label mb-3 text-danger fw-bold fs-4">
                         <?php
                         if ($_SESSION['REQUEST_METHOD'] = 'GET') {
-                            if (isset($_GET['error']) && $_GET['error'] == 1) echo "L'suari no existeix";
-                            if (isset($_GET['error']) && $_GET['error'] == 2) echo "cotrasenya incorrecta";
+                            if (isset($_GET['error']) && $_GET['error'] == 1) echo "L'usuari no compleix regex";
+                            if (isset($_GET['error']) && $_GET['error'] == 2) echo "Contrasenya incorrecta";
                         }
                         ?>
                     </p>

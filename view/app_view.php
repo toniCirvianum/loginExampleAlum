@@ -1,7 +1,14 @@
 <?php
 session_start();
+include('../language/ca.php');
+if (!isset($_SESSION['user_logged'])) {
+    header ('Location: ./home.php');
+    exit();
+}
 include ('../templates/navbar_app.php');
 include('../language/ca.php');
+
+
 ?>
 
 <div class="text-center vh-50 d-flex flex-column justify-content-center m-5">

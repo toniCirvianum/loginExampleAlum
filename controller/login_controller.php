@@ -10,16 +10,34 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $password = $_POST['password'];
 
         if (!usernameCorrect($username)) {
-            echo "nom usuari incorrecte";
+            header ('Location: ../view/login_view.php?error=1');
             exit();
         }
 
         if (!passwordCorrect($password)) {
-            echo "password incorrecte";
+            
+            header ('Location: ../view/login_view.php?error=2');
             exit();
         }
 
-        echo "tot bé";
+        $users = $_SESSION['users'];
+
+        if (checkUser($username,$password,$users)==3) {
+            header ('Location: ../view/login_view.php?error=2');
+            exit();
+        }
+
+        if (checkUser($username,$password,$users)==4) {
+            header ('Location: ../view/login_view.php?error=2');
+            exit();
+        }
+
+        $_SESSION['user_logged'] = checkUser($username,$password,$users);
+        header ('Location: ../view/app_view.php');
+        exit();
+
+
+        
 
 
     }

@@ -8,7 +8,8 @@ $text = [
     'placeholder_password' => 'Placeholder del password',
     'send_button' => "Envia",
     'register_link' => "Registra't",
-    'no_useraccount' => "No tens compte d'usuari? "
+    'no_useraccount' => "No tens compte d'usuari? ",
+    "title_app" => "Estic a dins de l'app"
 ];
 
 ?>
