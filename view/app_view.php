@@ -11,6 +11,30 @@ include('../language/ca.php');
 
 </div>
 
+<div class="container mx-auto mt-3 my-6">
+    <div class="row mb-4">
+        <!-- Comença la fila amb les tasques -->
+        <div class="col-md-3 md-2">
+            <!-- Comença la tasca -->
+            <div class="card my-3 bg-danger-subtle" style="width: 18rem;">
+                <div class="card-body">
+                    <!-- Contingut de la tasca -->
+                    <h5 class="card-title fw-bold">First to do Raquel </h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary fw-light">
+                    </h6>
+                    <p class="card-text overflow-hidden " style="height:10rem; "> He de fer una 1 </p>
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-success mx-2">Edit</a>
+                        <a href="#" class="btn btn-danger">Delete</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Acaba la tasca -->
+        </div>
+        <!-- Acaba la fila-->
+    </div>
+</div>
+
 <?php
 
 include ('../templates/footer.php');
