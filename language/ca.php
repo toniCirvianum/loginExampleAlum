@@ -16,7 +16,8 @@ $text = [
     'register_password' =>'Conrtasenya',
     'register_password_repeat' => 'Repeteix contrasenya',
     'register_email' => 'Correu electrònic',
-    'send_button' => 'Enviar'
+    'register_error_1' => "L'usuari ja existeix"
+
 
 
 
