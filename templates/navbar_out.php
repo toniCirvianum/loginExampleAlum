@@ -33,7 +33,7 @@ include($path); //language text
                     <a class="nav-link active" href="../view/login_view.php"><?= $text['login'] ?> </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><?= $text['register'] ?></a>
+                    <a class="nav-link" href="../view/register_view.php"><?= $text['register'] ?></a>
                 </li>
 
                 

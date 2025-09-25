@@ -37,7 +37,7 @@ include('../language/ca.php'); ?>
                 <div class="mt-3 text-center">
                     <p class="from-label mb-3 text-danger fw-bold fs-6">
                         <?php
-                        if ($_SESSION['REQUEST_METHOD'] == 'GET') {
+                        if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                             if (isset($_GET['error']) && $_GET['error'] == 1) echo $text['register_error_1'];
                             if (isset($_GET['error']) && $_GET['error'] == 2) echo $text['register_error_2'];
                             if (isset($_GET['error']) && $_GET['error'] == 3) echo $text['register_error_3'];
@@ -47,7 +47,7 @@ include('../language/ca.php'); ?>
                     </p>
                     <p class="from-label mb-3 text-success fw-bold fs-6">
                         <?php
-                        if ($_SESSION['REQUEST_METHOD'] == 'GET') {
+                        if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                             if (isset($_GET['error']) && $_GET['error'] == 0) echo $text['register_exit_0'];;
                         }
                         ?>

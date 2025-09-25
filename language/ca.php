@@ -9,7 +9,18 @@ $text = [
     'send_button' => "Envia",
     'register_link' => "Registra't",
     'no_useraccount' => "No tens compte d'usuari? ",
-    "title_app" => "Estic a dins de l'app"
+    "title_app" => "Estic a dins de l'app",
+    'register_title' => "Registre",
+    'register_name' => 'Nom i cognoms',
+    'register_username' => "Nom d'usuari",
+    'register_password' =>'Conrtasenya',
+    'register_password_repeat' => 'Repeteix contrasenya',
+    'register_email' => 'Correu electrònic',
+    'send_button' => 'Enviar'
+
+
+
+
 ];
 
 ?>

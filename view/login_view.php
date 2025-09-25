@@ -21,7 +21,8 @@ include('../language/ca.php'); //language text
                 </div>
                 <!-- Direct acces to register -->
                 <div class="mt-3 text-center">
-                    <p><?= $text['no_useraccount']?><a href="signup_view.php"> <?= $text['register_link']?></a></p>
+                    <p><?= $text['no_useraccount']?>
+                    <a href="./register_view.php"> <?= $text['register_link']?></a></p>
                 </div>
                 <!-- Errors control -->
                 <div class="mt-3 text-center">
