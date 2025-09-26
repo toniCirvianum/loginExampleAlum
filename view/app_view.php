@@ -5,6 +5,8 @@ if (!isset($_SESSION['user_logged'])) {
     header ('Location: ./home.php');
     exit();
 }
+
+$taskList = $_SESSION['todoList'];
 include ('../templates/navbar_app.php');
 include('../language/ca.php');
 
@@ -20,6 +22,12 @@ include('../language/ca.php');
 
 <div class="container mx-auto mt-3 my-6">
     <div class="row mb-4">
+        <?php
+        foreach ($taskList as $task) {
+           
+       
+
+        ?>
         <!-- Comença la fila amb les tasques -->
         <div class="col-md-3 md-2">
             <!-- Comença la tasca -->
@@ -39,6 +47,7 @@ include('../language/ca.php');
             <!-- Acaba la tasca -->
         </div>
         <!-- Acaba la fila-->
+         <?php }?>
     </div>
 </div>
 
