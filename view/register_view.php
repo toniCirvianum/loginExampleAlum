@@ -42,6 +42,7 @@ include('../language/ca.php'); ?>
                             if (isset($_GET['error']) && $_GET['error'] == 2) echo $text['register_error_2'];
                             if (isset($_GET['error']) && $_GET['error'] == 3) echo $text['register_error_3'];
                             if (isset($_GET['error']) && $_GET['error'] == 4) echo $text['register_error_4'];
+                            if (isset($_GET['error']) && $_GET['error'] == 5) echo $text['register_error_5'];
                         }
                         ?>
                     </p>

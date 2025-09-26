@@ -13,15 +13,19 @@ $text = [
     'register_title' => "Registre",
     'register_name' => 'Nom i cognoms',
     'register_username' => "Nom d'usuari",
-    'register_password' =>'Conrtasenya',
+    'register_password' => 'Conrtasenya',
     'register_password_repeat' => 'Repeteix contrasenya',
     'register_email' => 'Correu electrònic',
-    'register_error_1' => "L'usuari ja existeix"
+    'register_error_1' => "Les contrasenyes no coincideixien",
+    'register_error_2' => "L'usuari només minúscules i números",
+    'register_error_3' => "La contrasenya introduïda es incorrecta",
+    'register_error_4' => "El mail es incorrecte",
+    'register_error_5' => "L'usuari ja existeix",
+    'register_exit_0' => "Usuari creat correctament"
+
 
 
 
 
 
 ];
-
-?>
