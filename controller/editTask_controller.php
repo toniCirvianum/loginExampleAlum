@@ -8,7 +8,6 @@ foreach ($_SESSION['todoList'] as $key => $task) {
     if ($id_task == $task['id']) {
         //un cop hem localitzat la tasca
         //Actualitzar-la amb els valors que s'han pasat pel formulari
-        $tasks = $_SESSION['todoList'];
-        $tasks[$key]['name'] = $_POST['name'];
+        $_SESSION['todoList'];[$key]['name'] = $_POST['name'];
     }
 }
