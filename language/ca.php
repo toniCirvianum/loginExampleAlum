@@ -21,7 +21,8 @@ $text = [
     'register_error_3' => "La contrasenya introduïda es incorrecta",
     'register_error_4' => "El mail es incorrecte",
     'register_error_5' => "L'usuari ja existeix",
-    'register_exit_0' => "Usuari creat correctament"
+    'register_exit_0' => "Usuari creat correctament",
+    'user_profile' => "Perfil d'usuari"
 
 
 
